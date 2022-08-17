@@ -1,0 +1,156 @@
+# site name
+prefixName: さくら荘その
+siteName: lgz
+# favicon and site master avatar
+favicon: /images/favicon.ico
+avatar: /img/custom/avatar.jpg
+url: https://lgz0103.github.io
+description: My brain has two parts, the left has nothing right, and the right has nothing left.
+cdn: https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: 摸鱼中...
+lazyloadImg: https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/loader/orange.progress-bar-stripe-loader.svg
+#lazyload:
+#  enable: false
+#  onlypost: false # optional
+#  loadingImg: # optional eg ./images/loading.gif
+#  isSPA: false # optional
+#  preloadRatio: 3 # optional, default is 1
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    标签: {path: /tags, fa: fa-tags },
+    分类: {path: /categories/, fa: fa-bookmark },
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    #资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book }
+  } }
+  清单: { path: /, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友链: { path: /links/, fa: fa-link faa-shake }
+  赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    我？: {path: /about/, fa: fa-meetup}, 
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    Lab: {path: /lab/, fa: fa-cogs },
+  } }
+  客户端: { path: /client/, fa: fa-android faa-vertical }
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (1).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (2).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (3).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (4).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (5).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (6).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (7).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (8).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (9).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (10).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (11).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (12).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (13).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (14).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (15).jpg
+  - https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/cover/ (16).jpg
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+
+# startdash url, title, desc img
+startdash: 
+  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
+  - {url: http://space.bilibili.com/45335263, title: Bilibili, desc: 你所热爱的，就是你的生活(, img: /img/startdash/bilibili.jpg}
+  - {url: /, title: lgz的万事屋, desc: 技术服务, img: /img/startdash/wanshiwu.jpg}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 08/15/2022
+
+#social  url, img PC端配置
+social:
+  github: {url: https://github.com/lgz0103, img: /img/social/github.png}
+  #sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
+  wangyiyun: {url: https://music.163.com/#/user/home?id=1384601052, img: /img/social/wangyiyun.png}
+  #zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
+  email: {url: mailto:2841573915@qq.com, img: /img/social/email.svg}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2841573915&site=qq&menu=yes,img: /img/social/QQ.svg}
+  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  #wechat2: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: http://github.com/lgz0103, fa: fa-github, color: 333}
+  #weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2841573915&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+
+donate:
+  #paypal: https://www.paypal.me/hojuncn
+  alipay: /img/custom/donate/AliPayQR.jpg
+  wechat: /img/custom/donate/WeChatQR.jpg
+  wechatSQ: /img/custom/donate/WeChatSQ.jpg
+
+# 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: Unbroken.mp4
+
+aplayer: 
+  id: 7591442445
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine
+valine: false
+v_appId: D9rmAtqDxh7BrT5ebk6hsvJu-MdYXbMMI
+v_appKey: ou1Xwd73mQgh5gP7DbSQcsjo
+#v_verify: true 
+
+copyright:
+  enable: false # 代码块是否可复制,true允许,false加上文章信息
+  minCharNumber: 40 # 至少复制多少个字符就追加版权信息.
+  description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
+
+gitalk:
+    # 是否自动展开评论框
+    autoExpand: true
+    # 应用编号
+    clientID: '752af62c6941bdec9709'
+    # 应用秘钥
+    clientSecret: '58520a82dad3924af54d6897f81557efb02e011e'
+    # issue仓库名
+    repo: 'lgz0103.github.io'
+    # Github名
+    owner: 'lgz0103'
+    # Github名
+    admin: ['lgz']
+    # Ensure uniqueness and length less than 50
+    id: location.pathname
+    # Facebook-like distraction free mode
+    distractionFreeMode: false
