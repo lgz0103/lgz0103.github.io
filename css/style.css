@@ -1254,13 +1254,7 @@ a:hover,a:active {
     right:0;
     background-color:rgba(0,0,0,.3)
 }
-.pattern-attachment-img {
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
-    background-origin:border-box;
-    width:100%;
-    height:400px
+
 }
 .pattern-center-sakura header.pattern-header {
     position:absolute;
@@ -1648,7 +1642,9 @@ a:hover,a:active {
     border-radius:50%;
     padding:2px;
     border:1px solid #dadada;
+    object-fit: cover;
     position:relative
+
 }
 .feature :hover .overlay i {
     opacity:1
@@ -3823,9 +3819,10 @@ li.feature-2 {
     transform:translateY(0)
 }
 .notice {
-    padding:20px;
-    border:1px dashed #e6e6e6;
-    color:#969696;
+    padding:17px;
+    border:1px dashed #cacacaed;
+    color:#707070;
+    margin:-10px 0 -25px 0;
     position:relative;
     display:inline-block;
     width:100%;
@@ -4700,6 +4697,7 @@ i.iconfont.down {
         padding:0 4%
     }
     .feature img {
+
         width:52px;
         height:52px
     }
