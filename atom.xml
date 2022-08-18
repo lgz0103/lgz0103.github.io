@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2022-08-18T12:08:48.916Z</updated>
+  <updated>2022-08-15T04:00:00.000Z</updated>
   <id>/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="/posts/186f70d4/"/>
-    <id>/posts/186f70d4/</id>
-    <published>2022-08-15T04:00:00.000Z</published>
-    <updated>2022-08-18T12:08:48.916Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="uncategorized" scheme="/categories/uncategorized/"/>
-    
-    
-      <category term="web" scheme="/tags/web/"/>
-    
-      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -51,8 +29,28 @@
     
     </summary>
     
-      <category term="uncategorized" scheme="/categories/uncategorized/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Theme-Sakura</title>
+    <link href="/posts/186f70d4/"/>
+    <id>/posts/186f70d4/</id>
+    <published>2022-08-15T04:00:00.000Z</published>
+    <updated>2022-08-18T12:49:30.512Z</updated>
+    
+    <summary type="html">
+    
+      hexo-sakura主题使用教程
+    
+    </summary>
+    
+    
+      <category term="web" scheme="/tags/web/"/>
+    
+      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
