@@ -12,7 +12,7 @@ description: blog for testing
 fileName: Hello-World
 incomplete: true
 keywords: hello-world
-photos: 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/article_pics/ (1).jpg'
+photos: 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/article_pics/pic_1.jpg'
 abbrlink: 4a17b156
 date: 2022-08-15 12:00:00
 updated: 2022-08-15 12:00:00
