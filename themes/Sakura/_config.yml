@@ -77,7 +77,7 @@ bgclass: filter-dot
 # startdash url, title, desc img
 startdash: 
   - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/45335263, title: Bilibili, desc: 你所热爱的，就是你的生活(, img: /img/startdash/bilibili.jpg}
+  - {url: http://space.bilibili.com/45335263, title: Bilibili, desc: 乾杯！, img: /img/startdash/bilibili.jpg}
   - {url: /, title: lgz的万事屋, desc: 技术服务, img: /img/startdash/wanshiwu.jpg}
 
 
@@ -157,3 +157,5 @@ gitalk:
     
 live2d:
   enable: true 
+
+word_count: true
