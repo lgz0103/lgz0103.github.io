@@ -5,7 +5,7 @@ avatar: 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg'
 authorLink: hojun.cn
 authorAbout: 一个好奇的人
 authorDesc: 一个好奇的人
-categories: uncategorized
+categories: 
 comments: true
 tags:
   - web

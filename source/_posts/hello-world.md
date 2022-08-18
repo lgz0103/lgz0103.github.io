@@ -6,7 +6,7 @@ avatar: 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/custom/avatar.
 authorLink: 'https:lgz0103.github.io'
 authorAbout: 摸鱼中...
 type: categories
-categories: uncategorized
+categories: 生活
 comments: true
 description: blog for testing
 fileName: Hello-World
