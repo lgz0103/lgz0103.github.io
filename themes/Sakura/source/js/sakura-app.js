@@ -272,11 +272,11 @@ function code_highlight_style () {
   for (var i = 0; i < $('article pre').length; i++) {
     gen_top_bar(i)
   }
-  $('pre').on('click', function (e) {
+/*  $('pre').on('click', function (e) {
     if (e.target !== this) return
     $(this).toggleClass('code-block-fullscreen')
     $('html').toggleClass('code-block-fullscreen-html-scroll')
-  })
+  })  点击全屏显示代码*/
   hljs.initLineNumbersOnLoad()
 }
 try {
@@ -440,7 +440,7 @@ function checkBgImgCookie () {
       $('.blank').css('background-color', 'rgba(255,255,255,1)')
       $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')
       $('.headertop-bar').removeClass('headertop-bar').addClass('headertop-bar-sakura')
-    } else if (bgurl == 'https://api.shino.cc/bing/') {
+    } else if (bgurl == 'http://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = true
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -499,12 +499,12 @@ $(document).ready(function () {
       setCookie('bgImgSetting', url, 30)
     })
   }
-  changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/sakura.png')
-  changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/star.png')
-  changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/point.png')
-  changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/themebg/little-monster.png')
-  changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
+  changeBG('#sakura-bg', 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/themebg/sakura.png')
+  changeBG('#gribs-bg', 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/themebg/plaid.jpg')
+  changeBG('#pixiv-bg', 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/themebg/star.png')
+  changeBG('#KAdots-bg', 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/themebg/point.png')
+  changeBG('#totem-bg', 'https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/themebg/little-monster.png')
+  changeBGnoTrans('#bing-bg', 'http://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.skinSecter = false
     mashiro_global.variables.isNight = false

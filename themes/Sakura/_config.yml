@@ -154,3 +154,6 @@ gitalk:
     id: location.pathname
     # Facebook-like distraction free mode
     distractionFreeMode: false
+    
+live2d:
+  enable: true 

@@ -59,7 +59,7 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
+                content: "![...](https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/other/skip.jpg)"
             })
         },
         secondpart = function () {
@@ -69,23 +69,23 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1200,
-                    content: "日常划水摸鱼…"
+                    content: "日常划水摸鱼"
                 }).then(function () {
                     botui.message.add({
-                        delay: 1200,
-                        content: "CTF划水萌新，Misc&Crypto菜鸡"
+                        delay: 1500,
+                        content: "CTF萌新，Misc&Crypto菜鸡"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "轻度二刺螈，番剧&Galgame爱好者"
+                            content: "轻度二刺螈，动漫&Galgame爱好者"
                         }).then(function () {
                             botui.message.add({
-                                delay: 1500,
-                                content: "重度宅男，在家没事基本不出门"
+                                delay: 1200,
+                                content: "假期作息时间极其混乱"
                             }).then(function () {
                                 botui.message.add({
-                                    delay: 1200,
-                                    content: "作息时而规律时而颠倒"
+                                    delay: 1500,
+                                    content: "如果白天联系不上我，那我大概率在睡觉😴"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
@@ -106,7 +106,7 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为闲，想给自己找点事做"
+                content: "以前就有过想法，正好假期比较闲，所以就抽时间搭出来了"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "暂时还没有，大概会长期空着吧… "
+                content: "暂时还没有，大概会长期空着吧… 🙄"
             }).then(function () {
                 botui.message.add({
-                    delay: 1100,
-                    content: "但不管怎样至少博客搭好了，哪天有什么想写的可以随时放上来~"
+                    delay: 1500,
+                    content: "但不管怎样至少博客搭好了，哪天有什么想写的可以随时放上来"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,

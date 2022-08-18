@@ -1,5 +1,8 @@
 <%- partial('_partial/head') %>
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <style type="text/css">
+  @import url("/css/code.css");
+  </style>
   <div class="scrollbar" id="bar">
   </div>
   <a href="#" class="cd-top faa-float animated"></a>
@@ -20,11 +23,15 @@
       </div>
     </div>
   </section>
+  <script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+  <!-- 页面点击小红心 -->
+  <script type = "text/javascript" src = "js/love-click.js " ></script >
+  <!--樱花飘落-->
+  <script type="text/javascript" src="/js/sakura.js"></script>
+  <!-- 实现换肤功能 -->
+  <%- partial('_partial/skin-list') %> 
+  <%- partial('_partial/skin-btn', null, {cache: !config.relative_link}) %>
   <%- partial('_partial/mheader', null, {cache: !config.relative_link}) %>
-  <%- partial('_partial/aplayer', null, {cache: !config.relative_link}) %>
-<!-- 页面点击小红心 -->
-<script type = "text/javascript" src = "js/love-click.js " ></script >
-<!--樱花飘落-->
-<script type="text/javascript" src="/js/sakura.js"></script>
+  <%- partial('_partial/aplayer', null, {cache: !config.relative_link}) %> 
 </body>
 </html>

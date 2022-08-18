@@ -6,7 +6,7 @@
     <!-- 有配图默认渲染第一张 -->
     <div class="pattern-attachment-img lazyload" style="background-image: url(<%= post.photos[0] %>);" src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
     </div>
-    <header class="pattern-header single-header">
+    <header class="pattern-header single-header" style="text-shadow: 0 0 7px #000,0 0 7px #000">
       <h1 class="entry-title">
       <%- post.title %></h1>
       <p class="entry-census">
@@ -42,6 +42,11 @@
         <% } %>
         <div class="entry-content">
           <%- post.content %>
+          <% if(post.incomplete&&post.incomplete==true) {%>
+          <hr>
+          <center><img class="lazyload" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/loader/sgz.gif"></center>
+          <p style="font-size:32px;text-align:center;margin-top:-2px">施工中...</p>
+          <% } %>
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
