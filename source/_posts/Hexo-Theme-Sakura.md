@@ -1,19 +1,21 @@
 ---
 title: Hexo-Theme-Sakura
 author: hojun
-avatar: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg
+avatar: 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg'
 authorLink: hojun.cn
 authorAbout: 一个好奇的人
 authorDesc: 一个好奇的人
-categories: 技术
-date: 2022-08-15 12:00:00
+categories: uncategorized
 comments: true
-tags: 
- - web
- - 悦读
+tags:
+  - web
+  - 悦读
 keywords: Sakura
 description: hexo-sakura主题使用教程
-photos: https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/other/sakura-features/sakura.png
+photos: >-
+  https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/other/sakura-features/sakura.png
+abbrlink: 186f70d4
+date: 2022-08-15 12:00:00
 ---
 hexo-theme-sakura主题 [English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)
 
