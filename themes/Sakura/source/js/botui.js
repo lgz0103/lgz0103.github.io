@@ -69,23 +69,23 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1200,
-                    content: "日常划水摸鱼"
+                    content: "CTF萌新，Misc&Crypto菜鸡"
                 }).then(function () {
                     botui.message.add({
                         delay: 1500,
-                        content: "CTF萌新，Misc&Crypto菜鸡"
+                        content: "懒狗一条，日常划水摸鱼"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "轻度二刺螈，动漫&Galgame爱好者"
+                            content: "![...](https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/other/fw.jpg)"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1200,
-                                content: "假期作息时间极其混乱"
+                                content: "轻度二刺螈，动漫&Galgame爱好者"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1500,
-                                    content: "如果白天联系不上我，那我大概率在睡觉😴"
+                                    content: "喜欢在家宅着，对什么感兴趣就搞搞什么"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
@@ -105,8 +105,8 @@ function bot_ui_ini() {
         },
         thirdpart = function () {
             botui.message.add({
-                delay: 1E3,
-                content: "以前就有过想法，正好假期比较闲，所以就抽时间搭出来了"
+                delay: 1500,
+                content: "以前就有过想法，正好假期比较闲，就抽时间搭出来了"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
@@ -126,7 +126,7 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "但不管怎样至少博客搭好了，哪天有什么想写的可以随时放上来"
+                    content: "但至少博客搭好了，哪天有什么想写的可以随时放上来"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
