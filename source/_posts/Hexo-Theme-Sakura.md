@@ -16,6 +16,7 @@ photos: >-
   https://cdn.jsdelivr.net/gh/lgz0103/cdn-assets@1.0.1/img/other/sakura-features/sakura.png
 abbrlink: 186f70d4
 date: 2022-08-15 12:00:00
+updated: 2022-08-15 12:00:00
 ---
 hexo-theme-sakura主题 [English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)
 
