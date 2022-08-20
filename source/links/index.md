@@ -10,10 +10,10 @@ links:
   - group: 小伙伴们
     desc: 欢迎交换友链 ꉂ(ˊᗜˋ)
     items:
-    - url: https://lgz0103.github.io/
-      img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg
-      name: Google
-      desc: Google 镜像
+    - url: https://littlewhite.fun
+      img: https://cdn.seadev.cn/yc/20211214220506.png
+      name: Tutu.
+      desc: 公大最菜web手
     - url: https://lgz0103.github.io/
       img: https://cloud.moezx.cc/Picture/svg/landscape/fields.svg
       name: Google
